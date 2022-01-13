@@ -1,0 +1,60 @@
+/*
+  Name: Christina 'Luna' Nguyen
+  Date: January 1, 2022
+  Section: CSE 154 AH
+  This is the styles.css page that is used by all pages in the UGR website. It
+  uses a NSC-inspired blue/white theme.
+*/
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+}
+
+article {
+  background-color: blue;
+}
+
+h3, #bold {
+  font-weight: bold;
+}
+
+h2, h3, p {
+  font-family: 'Times New Roman', "Times", serif;
+}
+
+ul li {
+  /* descentdent combinator */
+  list-style-type: circle;
+}
+
+h2, h3, p, ul li {
+  color: black;
+}
+
+a:hover, a:link {
+  color: cadetblue;
+}
+
+/* unvisted link */
+a:visited {
+  color: pink;
+}
+
+/* visted link */
+a:hover {
+  cursor: pointer;
+}
+
+/* set new pointer icon */
+#whitebackground {
+  background-color: white;
+}
+
+body {
+  background-color: papayawhip;
+  font-family: "Helvetica", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
